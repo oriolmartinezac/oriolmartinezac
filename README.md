@@ -47,6 +47,22 @@ Outside of my academic and research work, I enjoy designing and building **perso
 
 ---
 
+## 📄 Academic Projects
+
+- 🧪 **Master's Thesis**:  
+  📘 *Deployment automation and allocation strategies for distributed data analytics workflows over edge-to-cloud continuum infrastructures*  
+  🏫 Universitat Politècnica de Catalunya (UPC), October 2023  
+  🔗 [Access publication](https://upcommons.upc.edu/handle/2117/401822)  
+  🏆 Final grade: **9.5 / 10**
+
+- ⚙️ **Bachelor’s Thesis**:  
+  📘 *Implementation of a parallel workflow execution through REANA framework*  
+  🏫 Universitat Autònoma de Barcelona (UAB)  
+  🔗 [Access publication](https://ddd.uab.cat/record/231457?ln=ca)  
+  🏆 Final grade: **9.8 / 10**
+
+---
+
 ## 📈 GitHub Stats
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=oriolmartinezac&layout=compact&theme=tokyonight)
