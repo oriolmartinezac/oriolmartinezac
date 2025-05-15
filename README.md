@@ -49,7 +49,7 @@ Outside of my academic and research work, I enjoy designing and building **perso
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=oriolmartinezac&show_icons=true&hide_title=true&hide=stars&count_private=true&theme=default)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=oriolmartinezac&layout=compact&theme=tokyonight)
 
 ---
 
