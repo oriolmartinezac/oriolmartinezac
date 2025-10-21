@@ -8,7 +8,7 @@
 
 ## 🧑‍💻 About Me
 
-I'm a computer engineer and researcher at the **Barcelona Supercomputing Center (BSC)** in the **Predictable Parallel Computing** group. I'm also a university lecturer teaching **Computer Architecture and Operating Systems**, where I combine teaching with research in distributed systems and runtime optimization.
+I'm a computer engineer and researcher at the **Barcelona Supercomputing Center (BSC)** in the **Predictable Parallel Computing** group. I'm also a university lecturer teaching **Computer Architecture & Operating Systems and Paralelism & Distributed Systems**, where I combine teaching with research in distributed systems and runtime optimization.
 
 In parallel, I'm pursuing a **PhD in Computer Science at Universitat Politècnica de Catalunya (UPC)**, focused on task scheduling strategies for data-intensive workflows on heterogeneous infrastructures.
 
