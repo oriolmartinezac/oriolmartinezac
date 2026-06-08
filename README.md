@@ -1,82 +1,145 @@
-# 👋 Hi, I'm @oriolmartinezac (Oriol)
-### 🧠 Engineer, researcher, and lecturer passionate about distributed computing, operating systems, and efficient programming
+# 👋 Hi, I'm Oriol Martínez
 
-[![PPC Group - BSC](https://img.shields.io/badge/BSC-PPC-blue)](https://ppc.bsc.es)
+### Software Engineer focused on Distributed Systems, Platform Engineering, and Edge-to-Cloud Computing
+
+[![BSC - PPC Group](https://img.shields.io/badge/BSC-Predictable%20Parallel%20Computing-blue)](https://ppc.bsc.es)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-informational)](https://www.linkedin.com/in/oriol-mart%C3%ADnez-acon-b25a221b7/)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-blue)](https://scholar.google.com/citations?user=FEkRC8cAAAAJ&hl=en)
 
 ---
 
-## 🧑‍💻 About Me
+## About Me
 
-I'm a computer engineer and researcher at the **Barcelona Supercomputing Center (BSC)** in the **Predictable Parallel Computing** group. I'm also a university lecturer teaching **Computer Architecture & Operating Systems and Paralelism & Distributed Systems**, where I combine teaching with research in distributed systems and runtime optimization.
+I'm a Research Software Engineer at the **Barcelona Supercomputing Center (BSC)**, working in the **Predictable Parallel Computing** group. My work focuses on distributed systems, workflow orchestration, scheduling, and resource optimization across heterogeneous edge-to-cloud infrastructures.
 
-In parallel, I'm pursuing a **PhD in Computer Science at Universitat Politècnica de Catalunya (UPC)**, focused on task scheduling strategies for data-intensive workflows on heterogeneous infrastructures.
+I develop and evaluate scheduling and placement strategies for distributed data analytics workflows, with a focus on improving latency, throughput, resource efficiency, and execution adaptability. My work involves Kubernetes/Docker-based workflow platforms, COMPSs runtime components, monitoring-driven decision-making, and vertical/horizontal scaling strategies.
 
-Outside of my academic and research work, I enjoy designing and building **personal software projects** that explore distributed computing, systems efficiency, and automation.
+I am also pursuing a **PhD in Computer Science at Universitat Politècnica de Catalunya (UPC)**, focused on scheduling strategies for data-intensive workflows across heterogeneous computing environments.
 
-- 💼 Currently working on:
-  - 🧪 Research on **COMPSs**, scheduling, and performance analysis
-  - 🧑‍🏫 Teaching at **ENTI-UB** (Escola de Noves Tecnologies Interactives - University of Barcelona) in computer science and cybersecurity programs
-- 🎓 Strong technical background with analytical thinking and a focus on scalable, efficient systems
-- 🔍 Interests: Kubernetes, Prometheus/Grafana monitoring, parallel programming, task scheduling, systems virtualization and optimization
+Alongside my engineering and research work, I teach bachelor-level courses related to **Distributed Systems, Operating Systems, Computer Architecture, and Hardware Concepts**.
 
 ---
 
-## ⚙️ Technologies & Tools
+## Technical Focus
 
-- Languages: Python · Bash · C · Java · LaTeX
-- Systems: Linux · Kubernetes · Docker · VirtualBox
-- Stack: COMPSs · Redis · Prometheus · Grafana · Git · Maven
-- Additional skills: graph processing, heuristic-based optimization (SPT, locality-aware), scientific workflows
-
----
-
-## 📘 Notable Projects
-
-- 🔄 **COMPSs Runtime Scheduling Enhancements**  
-  Developed and integrated custom scheduling policies in the COMPSs runtime based on execution-time heuristics, task locality, and core availability. These policies improve resource usage efficiency in distributed environments and support advanced orchestration strategies in Kubernetes.
-
-- 📈 **Vertical Scaling in Distributed Workflows**  
-  Designed a Prometheus-integrated mechanism for dynamic vertical scaling of CPU resources in COMPSs containers. This enables on-the-fly resource adjustments based on task behavior and workload pressure, improving runtime adaptability and performance under Kubernetes.
-
-- 📊 **Distributed Monitoring Architecture**  
-  Container-based setup for collecting and visualizing distributed task metrics via Prometheus and Grafana.
-
-- 📖 **Teaching Materials**  
-  Slides and labs on Operating Systems and Computer Architecture.
+* Distributed systems and edge-to-cloud computing
+* Kubernetes-based workflow execution
+* Scheduling and placement strategies
+* Resource allocation and performance optimization
+* Monitoring-driven decision-making with Prometheus and Grafana
+* Vertical and horizontal scaling for containerized workloads
+* Scientific workflows and reproducible computing
+* Platform engineering and cloud-native infrastructure
 
 ---
 
-## 📄 Academic Projects
+## Technologies & Tools
 
-- 🧪 **Master's Thesis**:  
-  📘 *Deployment automation and allocation strategies for distributed data analytics workflows over edge-to-cloud continuum infrastructures*  
-  🏫 Universitat Politècnica de Catalunya (UPC), October 2023  
-  🔗 [Access publication](https://upcommons.upc.edu/handle/2117/401822)  
-  🏆 Final grade: **9.5 / 10**
+**Languages**
+Python · Java · C/C++ · Bash · LaTeX
 
-- ⚙️ **Bachelor’s Thesis**:  
-  📘 *Implementation of a parallel workflow execution through REANA framework*  
-  🏫 Universitat Autònoma de Barcelona (UAB)  
-  🔗 [Access publication](https://ddd.uab.cat/record/231457?ln=ca)  
-  🏆 Final grade: **9.8 / 10**
+**Systems & Infrastructure**
+Linux · Kubernetes · Docker · Helm · Prometheus · Grafana
+
+**Distributed & Workflow Systems**
+COMPSs · REANA · Scientific Workflows · Data Analytics Workflows
 
 ---
 
-## 📈 GitHub Stats
+## Selected Projects
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=oriolmartinezac&layout=compact&theme=tokyonight)
+### COMPSs Runtime Scheduling Enhancements
+
+Developed and integrated scheduling strategies in the COMPSs runtime, focusing on execution-time heuristics, task locality, resource availability, and performance-aware task placement.
+
+These strategies aim to improve resource usage and workflow execution efficiency in distributed and containerized environments.
+
+### Kubernetes-based Workflow Execution
+
+Worked on deploying and running distributed workflow components over Kubernetes clusters using Docker containers, Kubernetes manifests, and Helm-based configurations.
+
+This work supports reproducible execution of data analytics workflows across heterogeneous edge-to-cloud infrastructures.
+
+### Monitoring-driven Scheduling
+
+Integrated Prometheus and Grafana monitoring stacks to collect runtime and system metrics such as latency, throughput, CPU usage, and resource pressure.
+
+These metrics are used to support decision-making on where to execute COMPSs tasks across distributed infrastructures.
+
+### Vertical and Horizontal Scaling for Distributed Workflows
+
+Worked on scaling strategies for containerized workflow execution, including vertical resource adjustment and horizontal scaling mechanisms to improve adaptability under dynamic workloads.
+
+### Distributed Monitoring Architecture
+
+Designed container-based monitoring setups for collecting and visualizing metrics from distributed workflow executions using Prometheus and Grafana.
 
 ---
 
-## 🌱 Currently Learning
+## Academic Work
 
-- Advanced vertical and horizontal autoscaling in Kubernetes using custom Prometheus metrics integrated with task scheduling programming models
+### PhD
+
+**Scheduling strategies for data analytics workflows across heterogeneous edge-to-cloud infrastructures**
+Universitat Politècnica de Catalunya (UPC)
+2024 – Present
+
+### Master's Thesis
+
+**Deployment automation and allocation strategies for distributed data analytics workflows over edge-to-cloud continuum infrastructures**
+Universitat Politècnica de Catalunya (UPC), 2023
+Final grade: **9.5 / 10**
+[Access publication](https://upcommons.upc.edu/handle/2117/401822)
+
+### Bachelor's Thesis
+
+**Implementation of a parallel workflow execution through REANA framework**
+Universitat Autònoma de Barcelona (UAB), 2020
+Final grade: **9.8 / 10**
+[Access publication](https://ddd.uab.cat/record/231457?ln=ca)
 
 ---
 
-## 💬 Let's Connect
+## Teaching
 
-I'm open to collaboration in research, teaching, or open-source projects. I'm also interested in contributing to educational or scientific outreach initiatives.
+I teach bachelor-level courses related to:
 
-🌐 [https://ppc.bsc.es](https://ppc.bsc.es)
+* Distributed Systems
+* Operating Systems
+* Computer Architecture
+* Hardware Concepts
+
+Teaching helps me stay close to computing fundamentals while improving how I communicate complex technical ideas clearly.
+
+---
+
+## Research & Publications
+
+You can find my publications and academic work on Google Scholar:
+
+[Google Scholar Profile](https://scholar.google.com/citations?user=FEkRC8cAAAAJ&hl=en)
+
+---
+
+## Currently Interested In
+
+* Backend and platform engineering
+* Distributed systems at scale
+* Kubernetes-native workflow execution
+* Observability and monitoring-driven automation
+* Resource-aware scheduling
+* Cloud-native and edge-to-cloud infrastructures
+
+---
+
+## GitHub Stats
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=oriolmartinezac\&layout=compact\&theme=tokyonight)
+
+---
+
+## Let's Connect
+
+I'm open to collaborations related to distributed systems, platform engineering, scientific workflows, observability, and cloud-native infrastructure.
+
+[LinkedIn](https://www.linkedin.com/in/oriol-mart%C3%ADnez-acon-b25a221b7/) · [Google Scholar](https://scholar.google.com/citations?user=FEkRC8cAAAAJ&hl=en) · [BSC PPC Group](https://ppc.bsc.es)
