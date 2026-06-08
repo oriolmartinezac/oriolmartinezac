@@ -18,6 +18,7 @@ I am also pursuing a **PhD in Computer Science at Universitat Politècnica de Ca
 
 Alongside my engineering and research work, I teach bachelor-level courses related to **Distributed Systems, Operating Systems, Computer Architecture, and Hardware Concepts**.
 
+In my free time, I also enjoy building Hytale mods and experimenting with game-related software projects.
 ---
 
 ## Technical Focus
@@ -134,7 +135,7 @@ You can find my publications and academic work on Google Scholar:
 
 ## GitHub Stats
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=oriolmartinezac&layout=compact&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=oriolmartinezac&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
