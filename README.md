@@ -136,7 +136,7 @@ You can find my publications and academic work on Google Scholar:
 
 ## GitHub Stats
 
-[![Oriol's GitHub stats](https://github-readme-stats.vercel.app/api?username=oriolmartinezac)](https://github.com/oriolmartinezac/github-readme-stats)
+[![Oriol's GitHub stats](https://github-readme-stats.vercel.app/api?username=oriolmartinezac)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
