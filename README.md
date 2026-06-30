@@ -14,7 +14,7 @@ I'm a **Research Software Engineer** at the **Barcelona Supercomputing Center (B
 
 My work focuses on distributed systems, workflow orchestration, scheduling, resource optimization, and platform engineering across heterogeneous edge-to-cloud infrastructures.
 
-I develop and evaluate scheduling and placement strategies for distributed data analytics workflows, focusing on latency, throughput, resource efficiency, data locality, and execution adaptability.
+I develop and evaluate scheduling, placement, monitoring, and scaling mechanisms for distributed data analytics workflows, focusing on latency, throughput, resource efficiency, data locality, and runtime adaptability.
 
 My work involves:
 
@@ -36,10 +36,9 @@ In my free time, I build **Hytale mods** and experiment with game-related softwa
 
 ## Technical Focus
 
-* Distributed systems
-* Edge-to-cloud computing
-* Platform engineering
+* Distributed systems and edge-to-cloud computing
 * Workflow orchestration
+* Platform engineering
 * Kubernetes-based execution
 * Scheduling and placement strategies
 * Resource allocation and optimization
@@ -73,73 +72,85 @@ Distributed Systems · Scheduling · Orchestration · Observability · Resource 
 
 ## Selected Professional Projects
 
-### COMPSs Runtime Scheduling Enhancements
+Most of my day-to-day professional development is carried out through BSC's internal GitLab infrastructure. Public branches containing externally accessible versions of selected work are linked below.
 
-**Public project reference:** [COMPSs](https://gitlab.bsc.es/ppc-bsc/software/compss)
+### Monitoring-driven Scalability in COMPSs
 
-Developed and integrated scheduling strategies in the COMPSs runtime, focusing on:
+**Public development branch:** [monitoring-driven-scalability](https://gitlab.bsc.es/ppc-bsc/software/compss/-/tree/monitoring-driven-scalability?ref_type=heads)
 
-* Execution-time heuristics
-* Task locality
-* Resource availability
-* Data transfer costs
-* Performance-aware task placement
-* Heterogeneous resource management
-
-The work involves designing and evaluating scheduling mechanisms intended to improve resource utilization and workflow execution efficiency across distributed and containerized environments.
-
-Day-to-day development is carried out through BSC's internal GitLab infrastructure. The linked repository is the public version of the project, while my individual development activity and commit history are not publicly accessible.
-
----
-
-### Kubernetes and Helm-based Workflow Deployment
-
-Developed and maintained Kubernetes manifests and Helm charts for deploying distributed workflow components and supporting services across heterogeneous computing environments.
+Developed and integrated monitoring-driven scheduling and scalability mechanisms into the COMPSs runtime.
 
 The work includes:
 
-* Container configuration
-* Kubernetes service deployment
+* Scheduling heuristics
+* Runtime and application-level metrics
+* Prometheus metric integration
+* Performance-aware task placement
+* Resource availability analysis
+* Data locality and transfer-cost considerations
+* Vertical and horizontal scaling support
+* Communication with external monitoring and scaling services
+
+Most day-to-day development is carried out in BSC's internal GitLab infrastructure. The linked public branch contains the externally accessible version of this work.
+
+The relevant changes are maintained in the `monitoring-driven-scalability` branch rather than the public `master` branch.
+
+---
+
+### Kubernetes and Helm-based COMPSs Deployment
+
+**Public implementation branch:** [compss-default](https://github.com/ProyectoAscender/helm-compss-app/tree/compss-default)
+
+Developed and maintained Kubernetes manifests and Helm charts for deploying COMPSs applications and their supporting services across heterogeneous computing environments.
+
+The work includes:
+
+* Deployment of COMPSs master and worker components
+* Container and service configuration
 * CPU and memory resource configuration
-* Storage and networking setup
-* Monitoring stack integration
-* Workflow platform configuration
+* Heterogeneous worker placement
+* Kubernetes networking and service discovery
+* Persistent storage configuration
+* Monitoring API deployment
+* Prometheus integration
+* Vertical and horizontal runtime scaling
 * Reproducible environment deployment
 
-The corresponding source code is maintained in BSC's internal GitLab infrastructure and is not publicly accessible.
+Development is also carried out through BSC's internal GitLab infrastructure. The linked `compss-default` branch contains the public version of the Helm chart and related deployment changes.
 
 ---
 
 ### Monitoring-driven Scheduling
 
-Integrated Prometheus and Grafana monitoring stacks to collect runtime and infrastructure metrics from distributed workflow executions.
+Integrated Prometheus and Grafana monitoring stacks to collect runtime, application, and infrastructure metrics from distributed workflow executions.
 
 Collected metrics include:
 
 * Task execution latency
 * Workflow throughput
 * CPU and memory usage
-* Resource pressure
 * Worker availability
+* Resource pressure
 * Task placement information
-* Application-level performance metrics
+* Application-level performance measurements
 
 These metrics support scheduling, resource allocation, and orchestration decisions across distributed infrastructures.
 
 ---
 
-### Vertical and Horizontal Scaling for Distributed Workflows
+### Vertical and Horizontal Scaling
 
-Worked on resource-scaling strategies for containerized workflow executions across heterogeneous environments.
+Worked on runtime scaling mechanisms for containerized COMPSs workflow executions across heterogeneous Kubernetes environments.
 
 The work includes:
 
-* Vertical adjustment of CPU and memory resources
-* Horizontal scaling of workflow workers
-* Runtime resource monitoring
-* Detection of performance degradation
-* Adaptation to changing workload requirements
-* Coordination between workflow runtimes and infrastructure orchestrators
+* Increasing or reducing CPU resources assigned to workers
+* Dynamically adding and removing worker pods
+* Monitoring runtime resource usage
+* Identifying performance degradation
+* Applying externally generated scaling decisions
+* Coordinating COMPSs runtime changes with Kubernetes
+* Protecting critical workers from unsafe removal
 
 ---
 
@@ -155,8 +166,9 @@ The architecture uses:
 * Containerized monitoring services
 * Grafana dashboards
 * Per-node and per-worker metrics
+* Monitoring APIs for scaling control
 
-This setup supports the observation of workflow and infrastructure behaviour across multiple distributed nodes.
+This setup supports the observation and control of workflow executions across multiple distributed nodes.
 
 ---
 
@@ -177,6 +189,7 @@ Research areas include:
 * Resource-aware task placement
 * Performance modelling
 * Monitoring-driven adaptation
+* Runtime scalability
 
 ---
 
