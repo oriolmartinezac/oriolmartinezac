@@ -10,7 +10,7 @@
 
 ## About Me
 
-I'm a **Research Software Engineer** at the **Barcelona Supercomputing Center (BSC)**, working in the **Predictable Parallel Computing** group.
+I'm a **Software Engineer** at the **Barcelona Supercomputing Center (BSC)**, working in the **Predictable Parallel Computing** group.
 
 My work focuses on distributed systems, workflow orchestration, scheduling, resource optimization, and platform engineering across heterogeneous edge-to-cloud infrastructures.
 
