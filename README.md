@@ -82,7 +82,7 @@ Developed and integrated monitoring-driven scheduling and scalability mechanisms
 
 The work includes:
 
-* Scheduling heuristics
+* Scheduling techniques
 * Runtime and application-level metrics
 * Prometheus metric integration
 * Performance-aware task placement
